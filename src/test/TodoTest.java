@@ -68,7 +68,7 @@ public class TodoTest {
 
     }
 
-    @Test
+    @Test (expected = InvalideDateException.class)
     public void badDate() throws InvalideDateException {
         Todo lstTodo = new Todo();
 

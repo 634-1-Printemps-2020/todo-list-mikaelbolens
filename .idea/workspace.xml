@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee7ac961-1619-4e8b-b6cd-e042d55d72bd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YU1XhN4C9zZvoQeL0V99XGS1HH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="metier.Todo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TodoTest.badDate">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="tp02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.addTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
+      <option name="METHOD_NAME" value="addTache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.annulerTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
+      <option name="METHOD_NAME" value="annulerTache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.badDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
+      <option name="METHOD_NAME" value="badDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.replanifierTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
+      <option name="METHOD_NAME" value="replanifierTache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.replanifierTacheBadDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
+      <option name="METHOD_NAME" value="replanifierTacheBadDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TodoTest.addTache" />
+      <item itemvalue="JUnit.TodoTest.annulerTache" />
+      <item itemvalue="JUnit.TodoTest.replanifierTache" />
+      <item itemvalue="JUnit.TodoTest.replanifierTacheBadDate" />
+      <item itemvalue="JUnit.TodoTest.badDate" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TodoTest.badDate" />
+        <item itemvalue="JUnit.TodoTest.replanifierTacheBadDate" />
+        <item itemvalue="JUnit.TodoTest.replanifierTache" />
+        <item itemvalue="JUnit.TodoTest.annulerTache" />
+        <item itemvalue="JUnit.TodoTest.addTache" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee7ac961-1619-4e8b-b6cd-e042d55d72bd" name="Default Changelist" comment="" />
+      <created>1582982399343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582982399343</updated>
+      <workItem from="1582982403638" duration="1593000" />
+      <workItem from="1582984644758" duration="3294000" />
+      <workItem from="1582990683671" duration="5586000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="896" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582990990877">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="896" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1582990990877" />
+    <state x="1339" y="424" key="#com.intellij.ide.util.MemberChooser" timestamp="1582993645656">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="1339" y="424" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1351@0.23.2560.1351" timestamp="1582993645656" />
+    <state x="1169" y="355" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582994380408">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="1169" y="355" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1582994380408" />
+    <state x="1703" y="519" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582991063560">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="1703" y="519" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1582991063560" />
+    <state x="1442" y="274" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1582990541264">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="1442" y="274" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.23.2560.1351@0.23.2560.1351" timestamp="1582990541264" />
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom" timestamp="1582996296893">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.23.2560.1351@0.23.2560.1351" timestamp="1582996296893" />
+    <state width="1877" height="329" key="GridCell.Tab.0.center" timestamp="1582996296892">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state width="1877" height="329" key="GridCell.Tab.0.center/0.23.2560.1351@0.23.2560.1351" timestamp="1582996296892" />
+    <state width="1877" height="329" key="GridCell.Tab.0.left" timestamp="1582996296892">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state width="1877" height="329" key="GridCell.Tab.0.left/0.23.2560.1351@0.23.2560.1351" timestamp="1582996296892" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right" timestamp="1582996296892">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state width="1877" height="329" key="GridCell.Tab.0.right/0.23.2560.1351@0.23.2560.1351" timestamp="1582996296892" />
+    <state width="1877" height="334" key="GridCell.Tab.1.bottom" timestamp="1582995624908">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.1.bottom/0.23.2560.1351@0.23.2560.1351" timestamp="1582995624908" />
+    <state width="1877" height="334" key="GridCell.Tab.1.center" timestamp="1582995624907">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.1.center/0.23.2560.1351@0.23.2560.1351" timestamp="1582995624907" />
+    <state width="1877" height="334" key="GridCell.Tab.1.left" timestamp="1582995624907">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.1.left/0.23.2560.1351@0.23.2560.1351" timestamp="1582995624907" />
+    <state width="1877" height="334" key="GridCell.Tab.1.right" timestamp="1582995624907">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state width="1877" height="334" key="GridCell.Tab.1.right/0.23.2560.1351@0.23.2560.1351" timestamp="1582995624907" />
+    <state x="1014" y="282" key="SettingsEditor" timestamp="1582996257052">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="1014" y="282" key="SettingsEditor/0.23.2560.1351@0.23.2560.1351" timestamp="1582996257052" />
+    <state x="1271" y="609" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582994358651">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="1271" y="609" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.2560.1351@0.23.2560.1351" timestamp="1582994358651" />
+    <state x="1346" y="442" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582994980933">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="1346" y="442" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1582994980933" />
+    <state x="1232" y="359" width="670" height="676" key="search.everywhere.popup" timestamp="1582992315161">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="1232" y="359" width="670" height="676" key="search.everywhere.popup/0.23.2560.1351@0.23.2560.1351" timestamp="1582992315161" />
+  </component>
+</project>

@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ee7ac961-1619-4e8b-b6cd-e042d55d72bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp02/exception/InvalideDateException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp02/exception/InvalideDateException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp02/metier/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp02/metier/Todo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp02/test/TodoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp02/test/TodoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/InvalidTacheException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/InvalidTacheException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/InvalideDateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/InvalideDateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Todo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/TodoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TodoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +20,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YU1XhN4C9zZvoQeL0V99XGS1HH" />
@@ -54,7 +65,7 @@
       <recent name="metier.Todo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TodoTest.badDate">
+  <component name="RunManager" selected="JUnit.TodoTest.badTache">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="tp02" />
@@ -62,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoTest.addTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp02" />
       <extension name="coverage">
         <pattern>
@@ -72,13 +83,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
-      <option name="METHOD_NAME" value="addTache" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.badTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
+      <option name="METHOD_NAME" value="badTache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoTest.annulerTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoTest.consulterTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp02" />
       <extension name="coverage">
         <pattern>
@@ -88,13 +114,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
-      <option name="METHOD_NAME" value="annulerTache" />
+      <option name="METHOD_NAME" value="consulterTache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoTest.badDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoTest.testConsulterTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp02" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +130,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
-      <option name="METHOD_NAME" value="badDate" />
+      <option name="METHOD_NAME" value="testConsulterTache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoTest.replanifierTache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoTest.testConsulterTache1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp02" />
       <extension name="coverage">
         <pattern>
@@ -120,23 +146,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
-      <option name="METHOD_NAME" value="replanifierTache" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoTest.replanifierTacheBadDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
-      <option name="METHOD_NAME" value="replanifierTacheBadDate" />
+      <option name="METHOD_NAME" value="testConsulterTache1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,19 +154,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.TodoTest.addTache" />
-      <item itemvalue="JUnit.TodoTest.annulerTache" />
-      <item itemvalue="JUnit.TodoTest.replanifierTache" />
-      <item itemvalue="JUnit.TodoTest.replanifierTacheBadDate" />
-      <item itemvalue="JUnit.TodoTest.badDate" />
+      <item itemvalue="JUnit.TodoTest.consulterTache" />
+      <item itemvalue="JUnit.TodoTest.testConsulterTache" />
+      <item itemvalue="JUnit.TodoTest.testConsulterTache1" />
+      <item itemvalue="JUnit.TodoTest" />
+      <item itemvalue="JUnit.TodoTest.badTache" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TodoTest.badDate" />
-        <item itemvalue="JUnit.TodoTest.replanifierTacheBadDate" />
-        <item itemvalue="JUnit.TodoTest.replanifierTache" />
-        <item itemvalue="JUnit.TodoTest.annulerTache" />
-        <item itemvalue="JUnit.TodoTest.addTache" />
+        <item itemvalue="JUnit.TodoTest.badTache" />
+        <item itemvalue="JUnit.TodoTest" />
+        <item itemvalue="JUnit.TodoTest.testConsulterTache1" />
+        <item itemvalue="JUnit.TodoTest.testConsulterTache" />
+        <item itemvalue="JUnit.TodoTest.consulterTache" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +194,7 @@
       <updated>1582982399343</updated>
       <workItem from="1582982403638" duration="1593000" />
       <workItem from="1582984644758" duration="3294000" />
-      <workItem from="1582990683671" duration="6018000" />
+      <workItem from="1582990683671" duration="10107000" />
     </task>
     <servers />
   </component>
@@ -196,10 +206,10 @@
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
     <state x="896" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1582990990877" />
-    <state x="1339" y="424" key="#com.intellij.ide.util.MemberChooser" timestamp="1582993645656">
+    <state x="1339" y="424" key="#com.intellij.ide.util.MemberChooser" timestamp="1582996962926">
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
-    <state x="1339" y="424" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1351@0.23.2560.1351" timestamp="1582993645656" />
+    <state x="1339" y="424" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1351@0.23.2560.1351" timestamp="1582996962926" />
     <state x="1169" y="355" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582994380408">
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
@@ -212,22 +222,22 @@
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
     <state x="1442" y="274" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.23.2560.1351@0.23.2560.1351" timestamp="1582990541264" />
-    <state width="1877" height="329" key="GridCell.Tab.0.bottom" timestamp="1582996735980">
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom" timestamp="1583001170057">
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
-    <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.23.2560.1351@0.23.2560.1351" timestamp="1582996735980" />
-    <state width="1877" height="329" key="GridCell.Tab.0.center" timestamp="1582996735978">
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.23.2560.1351@0.23.2560.1351" timestamp="1583001170057" />
+    <state width="1877" height="329" key="GridCell.Tab.0.center" timestamp="1583001170056">
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
-    <state width="1877" height="329" key="GridCell.Tab.0.center/0.23.2560.1351@0.23.2560.1351" timestamp="1582996735978" />
-    <state width="1877" height="329" key="GridCell.Tab.0.left" timestamp="1582996735978">
+    <state width="1877" height="329" key="GridCell.Tab.0.center/0.23.2560.1351@0.23.2560.1351" timestamp="1583001170056" />
+    <state width="1877" height="329" key="GridCell.Tab.0.left" timestamp="1583001170055">
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
-    <state width="1877" height="329" key="GridCell.Tab.0.left/0.23.2560.1351@0.23.2560.1351" timestamp="1582996735978" />
-    <state width="1877" height="329" key="GridCell.Tab.0.right" timestamp="1582996735979">
+    <state width="1877" height="329" key="GridCell.Tab.0.left/0.23.2560.1351@0.23.2560.1351" timestamp="1583001170055" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right" timestamp="1583001170057">
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
-    <state width="1877" height="329" key="GridCell.Tab.0.right/0.23.2560.1351@0.23.2560.1351" timestamp="1582996735979" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right/0.23.2560.1351@0.23.2560.1351" timestamp="1583001170057" />
     <state width="1877" height="334" key="GridCell.Tab.1.bottom" timestamp="1582995624908">
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
@@ -248,6 +258,18 @@
       <screen x="0" y="23" width="2560" height="1351" />
     </state>
     <state x="1014" y="282" key="SettingsEditor/0.23.2560.1351@0.23.2560.1351" timestamp="1582996257052" />
+    <state x="511" y="267" width="1719" height="800" key="ShowDiffWithBranchDialog" timestamp="1583001297992">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="511" y="267" width="1719" height="800" key="ShowDiffWithBranchDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1583001297992" />
+    <state x="970" y="407" key="Vcs.Push.Dialog.v2" timestamp="1583001352476">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="970" y="407" key="Vcs.Push.Dialog.v2/0.23.2560.1351@0.23.2560.1351" timestamp="1583001352476" />
+    <state x="511" y="267" width="1719" height="800" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1583001297993">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="511" y="267" width="1719" height="800" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.23.2560.1351@0.23.2560.1351" timestamp="1583001297993" />
     <state x="1271" y="609" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582994358651">
       <screen x="0" y="23" width="2560" height="1351" />
     </state>

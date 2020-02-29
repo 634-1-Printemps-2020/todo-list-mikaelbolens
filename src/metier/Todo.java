@@ -1,6 +1,7 @@
 package metier;
 
 import domain.*;
+import exception.InvalidTacheException;
 import exception.InvalideDateException;
 
 import java.util.ArrayList;
@@ -20,18 +21,14 @@ public class Todo {
         listDeTache.add(tache);
     }
 
-    public void annulerTache(Tache tache){
-        Tache t = listDeTache.get(listDeTache.indexOf(tache));
+    public void annulerTache(Tache tache) throws InvalidTacheException {
+        Tache t = listDeTache.get(getIndex(tache));
         t.setStatue(Statue.canceled);
     }
 
-    public void replanifierTache(Tache tache, Date d){
-        Tache t = listDeTache.get(listDeTache.indexOf(tache));
-        try {
-            t.setDatePlanifie(d);
-        } catch (InvalideDateException e) {
-            e.printStackTrace();
-        }
+    public void replanifierTache(Tache tache, Date d) throws InvalidTacheException, InvalideDateException {
+        Tache t = listDeTache.get(getIndex(tache));
+        t.setDatePlanifie(d);
     }
 
     public List<Tache> consulterTache(Statue statue){
@@ -56,6 +53,16 @@ public class Todo {
 
     public List<Tache> consulterTache(){
         return listDeTache;
+    }
+
+    private int getIndex(Tache tache) throws InvalidTacheException {
+        int index = listDeTache.indexOf(tache);
+        if (index != -1){
+            return index;
+        }
+        else {
+            throw new InvalidTacheException();
+        }
     }
 
 
